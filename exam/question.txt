@@ -1,0 +1,6 @@
+x = x*(a+b)-5;
+
+write bison code for the following cfg:
+S->aB|bA
+A->a|aS|bAA
+B->b|bS|aBB
