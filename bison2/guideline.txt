@@ -1,0 +1,6 @@
+All command
+(Write those command in command prompt sequentially)
+	bison -d parser.y
+	flex lexer.l
+	gcc lex.yy.c parser.tab.c
+	a.exe
